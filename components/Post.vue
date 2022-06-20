@@ -1,8 +1,9 @@
 <template>
   <div class="py-6 border-b-2 border-black flex flex-col space-y-2">
-    <img :src="imgSRC" class="h-fit w-3/5 self-center rounded-lg drop-shadow-md"/>
-    <article class="prose lg:prose-xl">
-  <h3>RSI Day ({{ day }})</h3>
+    
+    <article class="prose lg:prose-xl prose-img:rounded-xl prose-p:text-black">
+  <h3># RSI Day ({{ day }})</h3>
+  <img :src="imgSRC"/>
   <p>
     {{ body }}
   </p>
